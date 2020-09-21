@@ -3,8 +3,8 @@ require 'pry'
 def game_hash
   {
     home: {
-      team_name: {},
-      colors: [],
+      team_name: "Brookyln Nets",
+      colors: ["Black", "White"],
       players: [
         {player_name: "Alan Anderson",
         number: 0,
@@ -55,18 +55,11 @@ def game_hash
         steals: 4,
         blocks: 11,
         slam_dunks: 1},
-      ],
+      ]},
       
-      team_name: "Brooklyn Nets",
-      colors: ["Black", "White"],
-      players: [{
-        player_name: {"Alan Anderson"},
-        
-      }],
-    }, #closes home hash
-    away: {
-      team_name: {},
-      colors: [],
+      away: {
+      team_name: "Charlotte Hornets",
+      colors: ["Turqoise", "Purple"],
       players: [
         {player_name: "Jeff Adrien",
         number: 4,
@@ -119,9 +112,8 @@ def game_hash
         slam_dunks: 12},
       ],
       },
-    }, #closes away hash
-  } #closes the method
-end
+    } #closes away hash
+  end
 
 
 
