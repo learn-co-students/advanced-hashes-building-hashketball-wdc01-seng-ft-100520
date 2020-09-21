@@ -7,17 +7,19 @@ def game_hash
       colors: ["Black", "White"],
       players: {
         
-      }
-    } #this closes home hash
+      },
+    },
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turqoise", "Purple"],
       players: {
         
-      }
-    } #this closes the away hash 
+      },
+    },
+    
   } #this closes the method
 end
+
 
 
 
@@ -38,4 +40,25 @@ end
 
 BROOKLYN NETS - black and white
 CHARLOTTE HORNETS - turqoise and purple
+=end
+
+=begin 
+def game_hash
+  {
+    home: {
+      team_name: "Brooklyn Nets",
+      colors: ["Black", "White"],
+      players: {
+        
+      }
+    } #this closes home hash
+    away: {
+      team_name: "Charlotte Hornets",
+      colors: ["Turqoise", "Purple"],
+      players: {
+        
+      }
+    } #this closes the away hash 
+  } #this closes the method
+end
 =end
